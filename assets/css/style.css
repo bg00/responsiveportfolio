@@ -15,7 +15,6 @@ p{
 }
 
 .name, .navbar-brand{
-  float: left;
   height: 115px;
     font-size: 28px;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
