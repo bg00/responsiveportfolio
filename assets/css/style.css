@@ -16,7 +16,7 @@ p{
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.name, .navbar-brand{
+.name {
     text-align: center;
     height: 115px;
     font-size: 28px;
