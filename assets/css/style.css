@@ -50,7 +50,6 @@ p{
 }
 
 .project1 , .project2 , .project3 , .project4 , .project5 {
-  position: absolute;
   padding-top: 4px;
   padding-right: 36px;
   padding-bottom: -40px;
