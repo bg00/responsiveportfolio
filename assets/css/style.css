@@ -37,7 +37,9 @@ p{
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   background-color: #ffffff;
-  border-bottom: 45px solid #ffffff;
+  border-bottom: 25px solid #ffffff;
+  padding-bottom: -10px;
+  padding-top: 10px;
 
 }
 .img{
