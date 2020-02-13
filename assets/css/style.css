@@ -2,12 +2,14 @@ head{
   background-color: #ffffff;
   border: 58px;
   border-color: #cccccc;
+  display: inline-block;
 }
 
 a{
   color: #777777;
   word-wrap: break-word;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  display: inline-block;
 }
 
 p {
@@ -47,6 +49,7 @@ padding: 0;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   color: #4aaaa5;
   word-wrap: break-word;
+  display: inline-block;
 }
 
 .links{
