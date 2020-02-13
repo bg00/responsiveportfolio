@@ -10,10 +10,21 @@ a{
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-p{
+p {
   color: #777777;
   word-wrap: break-word;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  display: inline-block;
+}
+
+.aboutme {
+  display: inline-block;
+  position: inherit;
+  top: auto;
+}
+
+#aboutmepara {
+  text-align: center;
 }
 
 .name{
@@ -40,7 +51,9 @@ p{
 
 }
 .img{
-  float: middle;
+  text-align: center;
+    height: 50%;
+  width: 50%;
 }
 
 .portimg{
@@ -48,7 +61,7 @@ p{
 }
 
 .projtable {
-  display: inline-block
+  display: inline-block; 
 }
 
 .project1 , .project2 , .project3 , .project4 , .project5, .project6 {
