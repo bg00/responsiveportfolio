@@ -47,7 +47,11 @@ p{
   position: relative;
 }
 
-.project1 , .project2 , .project3 , .project4 , .project5 {
+.projtable {
+  display: inline-block
+}
+
+.project1 , .project2 , .project3 , .project4 , .project5, .project6 {
   padding-top: 4px;
   padding-right: 36px;
   padding-bottom: -40px;
@@ -81,6 +85,7 @@ p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #ffffff;
     border-color: #dddddd;
+    text-align: center;
   }
 
   .button {
