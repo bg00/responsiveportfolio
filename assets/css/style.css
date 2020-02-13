@@ -20,14 +20,17 @@ p {
 .aboutme {
 text-align: center;
 display: inline-table;
+padding: 0;
+  margin: 10px;
 }
 
 #aboutmepara {
   text-align: left;
-  float: right;
+  float: left;
   position: relative;
   width: 400px;
   height: 200px;
+  margin-left: -100px;
 }
 
 .name{
@@ -107,6 +110,7 @@ display: inline-table;
     background-color: #ffffff;
     border-color: #dddddd;
     text-align: center;
+    padding: 0;
   }
 
   .button {
