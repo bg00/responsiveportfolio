@@ -1,6 +1,8 @@
 head{
   background-color: #ffffff;
   border: 58px;
+  padding: 0;
+  margin: 0;
 }
 
 a{
@@ -34,7 +36,7 @@ padding: 0;
 
 .name{
     text-align: center;
-    height: 118px;
+    height: 75px;
     font-size: 28px;
     word-wrap: break-word;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -53,7 +55,8 @@ padding: 0;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   background-color: #ffffff;
-
+  padding-bottom: 10px;
+  margin-top: -10px;
 }
 .img{
   text-align: center;
