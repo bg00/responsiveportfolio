@@ -18,6 +18,10 @@ p {
   display: inline-block;
 }
 
+.container {
+    min-width: 100%;
+}
+
 .aboutme {
 text-align: center;
 display: inline-table;
