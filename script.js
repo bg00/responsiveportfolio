@@ -1,4 +1,4 @@
-$('.isslogo').on('click', function() {
+$(".isslogo").on("click", function() {
   window.open("https://bg00.github.io/ISS-Tracker/");
 });
 
