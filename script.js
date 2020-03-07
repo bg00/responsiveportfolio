@@ -19,5 +19,10 @@ $(".notetaker").on("click", function() {
 });
 
 $(".burger").on("click", function() {
-  window.open("http://www.google.com/");
+  window.open("https://polar-harbor-86212.herokuapp.com");
 });
+
+var frmvalidator = new Validator("contactform"); 
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req", "Please provide your email"); 
+frmvalidator.addValidation("email","email", "Please enter a valid email address");
