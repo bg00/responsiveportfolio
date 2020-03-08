@@ -27,3 +27,8 @@ $(".resicon").on("click", function(){
     "https://bg00.github.io/responsiveportfolio/assets/images/BaileyGarrettResume2020.pdf"
   );
 });
+
+$(".emicon").on("click", function(){
+  window.location.href =
+    "mailto:baileyagarrett@gmail.com?subject=Portfolio%20Contact&body=Your%20project%20info%20here";
+});
