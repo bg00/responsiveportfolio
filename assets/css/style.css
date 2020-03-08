@@ -100,17 +100,20 @@ p {
   background-color: #4aaaa5;
 }
 
-.form {
-  overflow: hidden;
+.contactinfo {
+  text-align: left;
+  width: auto;
   display: inline-block;
+  padding: 50px;
+  margin: 30px;
 }
 
-.type,
-.email,
-.message {
-  border: 1px solid #777777;
-  width: 90%;
-  clear: both;
+#github {
+  padding: 10px;
+  margin: 10px;
+  position: inherit;
+  text-align: center;
+  display: inline-block;
 }
 
 .content {

@@ -8,7 +8,6 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script type="text/javascript" src="form.php"></script>
     <title>Portfolio</title>
 </head>
 
@@ -41,33 +40,77 @@
             <div class="content">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="h2">Contact</h2>
+                        <h2 class="h2">Let's talk!</h2>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
-                        <div class="form">
+                    <div class="contactBlock">
+                        <div class="contactinfo">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="col">
+                                            <p>
+                                                I'm always looking for new opportunities! If you're interested in
+                                                French/English
+                                                translation, web development, software
+                                                development or all 3, I'd be happy to discuss any roles available and
+                                                how I can help
+                                                bring your project to fruition.
+                                            </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
 
-                            <form method=”post” name=”contact_form” action=”contact-form-handler.php”> 
-                                Your Name: 
-                                <input type=”text” name=”name”> 
-                                <br>
-                                Email Address:
-                                <input type=”text” name=”email”> 
-                                <br>
-                                Message:
-                                <textarea name=”message”></textarea>
-                                <br>
-                                <input class="button" type=”submit” value=”Submit”>
-                                <input class="button" type="clear" value="Reset">
-                            </form>
+                        <div class="row">
+                            <div class="col">
+                                <table>
+                                    <div class="contactlinks">
+                                        <tr>
+                                            <td>
+                                                <div id="github">
+                                                    <p>Check out my GitHub profile</p>
+                                                    <div id="github-card" data-username="bg00">
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div id="linkedin">
+                                                    <p>Connect with me on LinkedIn</p>
+                                                    <div class="LI-profile-badge" data-version="v1" data-size="medium"
+                                                        data-locale="en_US" data-type="vertical" data-theme="light"
+                                                        data-vanity="bailey-garrett-b82a1894"><a class="LI-simple-link"
+                                                            href='https://www.linkedin.com/in/bailey-garrett-b82a1894?trk=profile-badge'>Bailey
+                                                            Garrett</a></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="resume">
+                                                <p>Interested in my experience? Check out my resume</p>
+                                                <br>
+                                                <img class="resicon" src="assets/images/resumeicon.png" width="150px" height="150px"></img>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
+        </div>
+        </div>
+        </div>
+        </div>
         <script type="text/javascript" src="/assets/js/script.js"></script>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        <script type="text/javascript" src="https://github-profile.com/dist/gh-profile-card.min.js"></script>
     </body>
 
     <footer class="footer">
